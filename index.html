@@ -33,8 +33,9 @@
 
   <script>
     function ReadingText() {
-      const speak = new SpeechSynthesisUtterance(document.getElementById("input").value);
-      window.speechSynthesis.speak(speak);
+      const speech = new SpeechSynthesisUtterance(document.getElementById("input").value);
+      speech.lang = "es-ES";
+      window.speechSynthesis.speak(speech);
     }
   </script>
 </html>
