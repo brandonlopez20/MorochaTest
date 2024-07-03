@@ -1,0 +1,37 @@
+li{
+    list-style-type: none;
+    margin-inline: 2px;
+  
+}
+
+.avatar-user{
+    margin-left: 5px;
+
+    background-color: deepskyblue;
+    padding: 15px 10px;
+    border: solid 2px black;
+    border-radius: 50%;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+.text-user{
+
+    padding: 10px;
+    background-color: deepskyblue;
+    border-radius: 10px;
+    text-wrap: wrap;
+
+}
+
+.lista-user{
+    display: flex;
+    flex-direction: row-reverse;
+    ;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
