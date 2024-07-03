@@ -34,7 +34,8 @@
   <script>
     function ReadingText() {
       const speech = new SpeechSynthesisUtterance(document.getElementById("input").value);
-      speech.lang = "es-GT";
+      speech.lang = "es-ES";
+      speech.rate = 1
       window.speechSynthesis.speak(speech);
     }
   </script>
